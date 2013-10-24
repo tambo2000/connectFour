@@ -1,0 +1,40 @@
+
+.board {
+	background-color: blue;
+	height: 610px;
+	width: 724px;
+	margin: auto;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	overflow: hidden;
+}
+
+.column {
+	display: table-cell;
+	height: 610px;
+	width: 100px;
+	border-style: solid;
+}
+.column:hover {
+	background-color: green;
+}
+
+.red, .black {
+	height: 92px;
+	width: 92px;
+	border-radius: 50px;
+	margin: 3px;
+	margin-bottom: 6px;
+	position: absolute;
+	top: 0px;
+}
+
+.red {
+	background-color: red;
+}
+
+.black {
+	background-color: black;
+}
